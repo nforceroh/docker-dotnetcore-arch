@@ -9,9 +9,3 @@ RUN \
  && pacman --noconfirm -Sy coreutils dotnet-runtime \
  && rm -rf /usr/share/man/* /var/cache/pacman/pkg/* /var/lib/pacman/sync/* /etc/pacman.d/mirrorlist.pacnew
 
-##
-## INIT
-##
-
-COPY rootfs/ /
-
